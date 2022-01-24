@@ -70,7 +70,7 @@
 					"cmd"	"sm_negev"
 				}
 
-                "Usp"
+                		"Usp"
 				{
 					"hotkey"	"9"
 					"label"	"Usp"
