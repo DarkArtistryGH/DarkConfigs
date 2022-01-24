@@ -1,0 +1,245 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"0"
+			"title"	"#SFUI_CommonRadio"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"Hideall"
+				{
+					"hotkey"	"1"
+					"label"	"Hideall"
+					"cmd"	"sm_hideall"
+				}
+				
+				"HE"
+				{
+					"hotkey"	"2"
+					"label"	"HE"
+					"cmd"	"sm_he"
+				}
+				
+				"Bizon"
+				{
+					"hotkey"	"3"
+					"label"	"Bizon"
+					"cmd"	"sm_bizon"
+				}
+				
+				"Kevlar"
+				{
+					"hotkey"	"4"
+					"label"	"Kevlar"
+					"cmd"	"sm_kevlar"
+				}
+				
+				"P90"
+				{
+					"hotkey"	"5"
+					"label"	"P90"
+					"cmd"	"sm_p90"
+				}
+
+				"MP9"
+				{
+					"hotkey"	"6"
+					"label"	"MP9"
+					"cmd"	"sm_mp9"
+				}
+
+				"M4a1"
+				{
+					"hotkey"	"7"
+					"label"	"M4a1"
+					"cmd"	"sm_m4a1"
+				}
+
+  				"Negev"
+				{
+					"hotkey"	"8"
+					"label"	"Negev"
+					"cmd"	"sm_negev"
+				}
+
+                "Usp"
+				{
+					"hotkey"	"9"
+					"label"	"Usp"
+					"cmd"	"sm_usp"
+				}
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"#SFUI_CommandRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"( ͡ʘ ͜ʖ ͡ʘ)"
+				{
+					"hotkey"	"1"
+					"label"	"( ͡ʘ ͜ʖ ͡ʘ)"
+					"cmd"	"say ( ͡ʘ ͜ʖ ͡ʘ)"
+				}
+				
+				" （ ͡ ° ͜ ʖ ͡ °）"
+				{
+					"hotkey"	"2"
+					"label"	" （ ͡ ° ͜ ʖ ͡ °）"
+					"cmd"	"say （ ͡ ° ͜ ʖ ͡ °）"
+				}
+				
+				"(っ◔◡◔)っ ❤"
+				{
+					"hotkey"	"3"
+					"label"	"(っ◔◡◔)っ ❤"
+					"cmd"	"say (っ◔◡◔)っ ❤"
+				}
+				
+				"( ͡ ͡° ͜ ʖ ͡° )"
+				{
+					"hotkey"	"4"
+					"label"	"( ͡ ͡° ͜ ʖ ͡° )"
+					"cmd"	"say ( ͡ ͡° ͜ ʖ ͡° )"
+				}
+				
+				"♫ヽ(⌐■◡■)/ ♪"
+				{
+					"hotkey"	"5"
+					"label"	"♫ヽ(⌐■◡■)/ ♪"
+					"cmd"	"say ♫ヽ(⌐■◡■)/ ♪"
+				}
+
+				"(╭☞ȍ ͜つȍ)╭☞"
+				{
+					"hotkey"	"6"
+					"label"	"(╭☞ȍ ͜つȍ)╭☞"
+					"cmd"	"say (╭☞ȍ ͜つȍ)╭☞"
+				}
+
+				"( T ▾ T )"
+				{
+					"hotkey"	"7"
+					"label"	"( T ▾ T )"
+					"cmd"	"say ( T ▾ T )"
+				}
+
+				"¯\_(ツ)_/¯"
+				{
+					"hotkey"	"8"
+					"label"	"¯\_(ツ)_/¯"
+					"cmd"	"say ¯\_(ツ)_/¯"
+				}
+
+				"(>﹏<)"
+				{
+					"hotkey"	"9"
+					"label"	"(>﹏<)"
+					"cmd"	"say (>﹏<)"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"#SFUI_StandardRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"cheer"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#SFUI_ReportRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Spotted"
+					"cmd"	"enemyspot"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Need_Backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Take_Point"
+					"cmd"	"takepoint"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Sector_Clear"
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_In_Position"
+					"cmd"	"inposition"
+				}			
+			}
+		}
+	}
+}
