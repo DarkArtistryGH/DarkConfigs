@@ -8,3 +8,5 @@ When this config is used in the launch options write + exec "config name". To us
 Чтобы использовать Радиопанель тебе надо будет поменять файлик который находится Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui
  
  
+
+
