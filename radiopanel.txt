@@ -9,7 +9,7 @@
 		"common"
 		{
 			"hotkey"	"0"
-			"title"	"#SFUI_CommonRadio"
+			"title"	"ZE_bind"
 			"timeout"	"5"
 
 			"Commands"
@@ -82,7 +82,7 @@
 		"standard"
 		{
 			"hotkey"	"1"
-			"title"	"#SFUI_CommandRadio"
+			"title"	"LennyFace"
 			"timeout"	"5"
 			
 			"Commands"
@@ -155,44 +155,50 @@
 		"group"
 		{
 			"hotkey"	"2"
-			"title"	"#SFUI_StandardRadio"
+			"title"	"The_Leader"
 			"timeout"	"5"
 			
 			"Commands"
 			{
-				"roger"
+				"zombie_tp"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Roger"
-					"cmd"	"roger"
+					"label"	"Zombie Tp"
+					"cmd"	"sm_ld_ping; menuselect 1; menuselect 9;"
 				}
-				
-				"negative"
-				{
-					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Negative"
-					"cmd"	"negative"
-				}
-				
-				"cheer"
+				"defend"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Cheer"
-					"cmd"	"cheer"
+					"label"	"Defend"
+					"cmd"	"sm_ld_mark defend; sm_defend"
 				}
 				
-				"compliment"
+				"arrow"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_Compliment"
-					"cmd"	"compliment"
+					"label"	"Arrow"
+					"cmd"	"sm_ld_mark arrow; sm_arrow"
 				}
 				
-				"thanks"
+				"zombie_tp"
+				{
+					"hotkey"	"2"
+					"label"	"Zombie Tp"
+					"cmd"	"sm_ld_mark tp; sm_zmtp"
+				}
+			
+				"stop"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_Thanks"
-					"cmd"	"thanks"
+					"label"	"STOP"
+					"cmd"	"sm_ld_mark stop; sm_warning"
+				}
+				
+				"remove_marker"
+				{
+					"hotkey"	"6"
+					"label"	"Remove ALL Markers"
+					"cmd"	"sm_mark_r ALL; sm_dasprite"
 				}
 			}
 		}
