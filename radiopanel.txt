@@ -163,26 +163,26 @@
 				"zombie_tp"
 				{
 					"hotkey"	"1"
-					"label"	"Zombie Tp"
-					"cmd"	"sm_ld_ping; menuselect 1; menuselect 9;"
+					"label"	"Ping"
+					"cmd"	"sm_ping WARINING"
 				}
 				"defend"
 				{
-					"hotkey"	"3"
+					"hotkey"	"2"
 					"label"	"Defend"
 					"cmd"	"sm_ld_mark defend; sm_defend"
 				}
 				
 				"arrow"
 				{
-					"hotkey"	"4"
+					"hotkey"	"3"
 					"label"	"Arrow"
 					"cmd"	"sm_ld_mark arrow; sm_arrow"
 				}
 				
 				"zombie_tp"
 				{
-					"hotkey"	"2"
+					"hotkey"	"4"
 					"label"	"Zombie Tp"
 					"cmd"	"sm_ld_mark tp; sm_zmtp"
 				}
