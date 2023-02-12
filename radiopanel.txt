@@ -115,11 +115,11 @@
 					"cmd"	"say ( ͡ ͡° ͜ ʖ ͡° )"
 				}
 				
-				"♫ヽ(⌐■◡■)/ ♪"
+				"( ͡ ° ᴥ ͡ ° )"
 				{
 					"hotkey"	"5"
-					"label"	"♫ヽ(⌐■◡■)/ ♪"
-					"cmd"	"say ♫ヽ(⌐■◡■)/ ♪"
+					"label"	"( ͡ ° ᴥ ͡ ° )"
+					"cmd"	"say ( ͡ ° ᴥ ͡ ° )"
 				}
 
 				"(╭☞ȍ ͜つȍ)╭☞"
@@ -129,11 +129,11 @@
 					"cmd"	"say (╭☞ȍ ͜つȍ)╭☞"
 				}
 
-				"( T ▾ T )"
+				"（ ͡:° ᴥ ͡:°）"
 				{
 					"hotkey"	"7"
-					"label"	"( T ▾ T )"
-					"cmd"	"say ( T ▾ T )"
+					"label"	"（ ͡:° ᴥ ͡:°）"
+					"cmd"	"say （ ͡:° ᴥ ͡:°）"
 				}
 
 				" (つ﹏<。)"
@@ -143,11 +143,11 @@
 					"cmd"	"say  (つ﹏<。)"
 				}
 
-				"(>﹏<)"
+				"(っ >_<)っ"
 				{
 					"hotkey"	"9"
-					"label"	"(>﹏<)"
-					"cmd"	"say (>﹏<)"
+					"label"	"(っ >_<)っ"
+					"cmd"	"say (っ >_<)っ"
 				}
 			}
 		}
@@ -160,44 +160,44 @@
 			
 			"Commands"
 			{
-				"zombie_tp"
+				"Ping"
 				{
 					"hotkey"	"1"
 					"label"	"Ping"
-					"cmd"	"sm_ping WARINING"
+					"cmd"	"sm_ld_ping; sm_ping WARNING"
 				}
-				"defend"
+				"Defend"
 				{
 					"hotkey"	"2"
 					"label"	"Defend"
 					"cmd"	"sm_ld_mark defend; sm_defend"
 				}
 				
-				"arrow"
+				"Arrow"
 				{
 					"hotkey"	"3"
 					"label"	"Arrow"
 					"cmd"	"sm_ld_mark arrow; sm_arrow"
 				}
 				
-				"zombie_tp"
+				"ZMTP"
 				{
 					"hotkey"	"4"
 					"label"	"Zombie Tp"
 					"cmd"	"sm_ld_mark tp; sm_zmtp"
 				}
 			
-				"stop"
+				"Stop"
 				{
 					"hotkey"	"5"
-					"label"	"STOP"
+					"label"	"Stop"
 					"cmd"	"sm_ld_mark stop; sm_warning"
 				}
 				
-				"remove_marker"
+				"Remove"
 				{
 					"hotkey"	"6"
-					"label"	"Remove ALL Markers"
+					"label"	"Remove Markers"
 					"cmd"	"sm_mark_r ALL; sm_dasprite"
 				}
 			}
