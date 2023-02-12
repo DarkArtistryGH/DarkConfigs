@@ -164,7 +164,7 @@
 				{
 					"hotkey"	"1"
 					"label"	"Ping"
-					"cmd"	"sm_ld_ping; sm_ping WARNING"
+					"cmd"	"sm_ld_ping; sm_ping WARNING; menuselect 1"
 				}
 				"Defend"
 				{
@@ -211,40 +211,40 @@
 			
 			"Commands"
 			{
-				"enemyspot"
+				"Music"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Spotted"
-					"cmd"	"enemyspot"
+					"label"	"Music"
+					"cmd"	"sm_music"
 				}
 				
-				"needbackup"
+				"Settings"
 				{
 					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Need_Backup"
-					"cmd"	"needbackup"
+					"label"	"Settings"
+					"cmd"	"sm_settings"
 				}
 				
-				"takepoint"
+				"Shop"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Take_Point"
-					"cmd"	"takepoint"
+					"label"	"Shop"
+					"cmd"	"sm_shop"
 				}
 				
-				"sectorclear"
+				"Ld"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_Sector_Clear"
-					"cmd"	"sectorclear"
+					"label"	"Leader"
+					"cmd"	"sm_ld"
 				}
-				
-				"inposition"
+
+				"Zsound"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_In_Position"
-					"cmd"	"inposition"
-				}			
+					"label"	"Zsound"
+					"cmd"	"sm_zsound"
+				}
 			}
 		}
 	}
